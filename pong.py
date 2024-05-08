@@ -1,3 +1,4 @@
+# SPDX-License-Identifer: GPL-3.0-or-later
 import pygame, sys, random
 from pygame.locals import *
 from colorsys import hsv_to_rgb
