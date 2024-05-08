@@ -66,22 +66,22 @@ def game(nplayers):
 		# handle events
 		for event in pygame.event.get():
 			if event.type == KEYDOWN:
-				if event.key == 273: #freccetta su
+				if event.key == K_UP:
 					isPressingUp1 = True
-				elif  event.key == 274:
+				elif  event.key == K_DOWN:
 					isPressingDown1 = True
-				elif  event.key == 119:
+				elif  event.key == K_w:
 					isPressingUp2 = True
-				elif  event.key == 115:
+				elif  event.key == K_s:
 					isPressingDown2 = True
 			elif event.type == KEYUP:
-				if event.key == 273: #freccetta su
+				if event.key == K_UP:
 					isPressingUp1 = False
-				elif  event.key == 274:#freccia giu
+				elif  event.key == K_DOWN:
 					isPressingDown1 = False
-				elif  event.key == 119:#w
+				elif  event.key == K_w:
 					isPressingUp2 = False
-				elif  event.key == 115:#s
+				elif  event.key == K_s:
 					isPressingDown2 = False
 			elif event.type == QUIT:
 				pygame.quit()
