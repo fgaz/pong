@@ -219,7 +219,7 @@ def main():
 				#TODO options
 				state = 0
 			else:
-				print 'Exit!'
+				print('Exit!')
 				pygame.quit()
 				sys.exit()
 
